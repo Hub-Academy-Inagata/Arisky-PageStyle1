@@ -258,3 +258,10 @@ footer{
 .footer1 .container .row .ikuti a span{
     color: #404040;
 }
+
+.footer1 .container .copy p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #404040;
+}
