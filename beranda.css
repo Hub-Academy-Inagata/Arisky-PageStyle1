@@ -113,6 +113,20 @@ body{
     margin-left: 30px;
 }
 
+.tentang .container .tentang-caption h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #1C2661;
+}
+
+.tentang .container .tentang-caption p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3A3B41;
+}
+
 .galeri{
     margin: 100px 0;
     width: 100%;
