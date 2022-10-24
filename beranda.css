@@ -96,6 +96,10 @@ body{
     line-height: 36px;
 }
 
+.keunggulan .container .content p{
+    padding: 0 10px;
+}
+
 .tentang{
     margin: 150px 0;
 }
