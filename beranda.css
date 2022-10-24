@@ -265,3 +265,193 @@ footer{
     align-items: center;
     color: #404040;
 }
+
+
+/* media queries */
+@media only screen and (max-width: 767px){
+    .banner .container{
+        flex-direction: column;
+    }
+
+    .banner .container .banner-caption h2{
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .banner .container .banner-caption p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .banner .container .banner-caption a{
+        font-size: 16px;
+    }
+
+    .banner .container .banner-img{
+        margin-top: 20px;
+    }
+
+    .keunggulan .container{
+        flex-direction: column;
+    }
+
+    .keunggulan h2{
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .keunggulan .container .content{
+        margin: 20px 0;
+    }
+
+    .keunggulan .container .content img{
+        width: 50px;
+    }
+
+    .keunggulan .container .content h3{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .keunggulan .container .content p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .tentang .container{
+        flex-direction: column;
+    }
+
+    .tentang .container .tentang-caption h2{
+        font-size: 28px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .tentang .container .tentang-caption p{
+        text-align: justify;
+    }
+
+    .galeri{
+        height: 800px;
+        background: linear-gradient(99.2deg, #3A75D1 1.94%, #54BBEC 100%, #54BBEC 100%);
+        background-repeat: no-repeat;
+    }
+
+    .galeri .container h2{
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .galeri .container .dokum{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .galeri .container .dokum h2{
+        font-size: 18px;
+    }
+
+    .galeri .container .dokum a{
+        font-size: 12px;
+    }
+
+    .galeri .container .row .col .cardg img{
+        width: 30%;
+    }
+
+    .artikel .container .artikel-caption h2{
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .artikel .container .artikel-caption p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .banner .container{
+        flex-direction: column;
+    }
+
+    .banner .container .banner-caption h2{
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .banner .container .banner-caption p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .banner .container .banner-caption a{
+        font-size: 16px;
+    }
+
+    .banner .container .banner-img{
+        margin-top: 10px;
+        width: 60%;
+    }
+
+    .keunggulan h2{
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .keunggulan .container .content img{
+        width: 60px;
+    }
+
+    .keunggulan .container .content h3{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .keunggulan .container .content p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .tentang .container .tentang-caption h2{
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .galeri{
+        height: 450px;
+        background: linear-gradient(99.2deg, #3A75D1 1.94%, #54BBEC 100%, #54BBEC 100%);
+        background-repeat: no-repeat;
+    }
+
+    .galeri .container h2{
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .galeri .container .dokum h2{
+        font-size: 18px;
+    }
+
+    .galeri .container .dokum a{
+        font-size: 14px;
+    }
+
+    .galeri .container .row{
+        display: flex;
+        margin-top: 0;
+    }
+
+    .artikel .container .artikel-caption h2{
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .artikel .container .artikel-caption p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
