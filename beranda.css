@@ -32,6 +32,14 @@ body{
     align-items: center;
 }
 
+.navbar .container .navbar-collapse .navbar-nav .nav-item{
+    padding: 0 20px;
+}
+
+.navbar .container .navbar-collapse .navbar-nav .nav-item a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+
 .banner{
     height: 850px;
     background-image: url(images/Rectangle1.png);
@@ -58,6 +66,10 @@ body{
     font-size: 16px;
     color: #ffffff;
     line-height: 30px;
+}
+
+.banner .container .banner-caption a:hover{
+    letter-spacing: 2px;
 }
 
 .keunggulan{
@@ -168,8 +180,16 @@ body{
     color: #ffffff;
 }
 
+.galeri .container .dokum a:hover{
+    color: #1C2661;
+}
+
 .galeri .container .row{
     margin-top: 30px;
+}
+
+.galeri .container .row .col .cardg img:hover{
+    transform: scale(1.1);
 }
 
 .artikel .container{
@@ -202,12 +222,25 @@ body{
     color: #1C2661;
 }
 
+.artikel .container .row .carda{
+    margin: 10px;
+}
+
+.artikel .container .row .carda img:hover{
+    transform: scale(1.1);
+}
+
 .artikel .container .row .carda .card-body h5{
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     color: #1C2661; 
     margin-top: 40px;
+}
+
+.artikel .container .row .carda .card-body h5:hover{
+    color: #3870CF;
+    cursor: pointer;
 }
 
 .artikel .container .row .carda .card-body p{
@@ -233,6 +266,10 @@ footer{
     font-weight: 600;
 }
 
+.footer1 .container .row .inagata img{
+    margin-bottom: 10px;
+}
+
 .footer1 .container .row .informasi{
     display: flex;
     flex-direction: column;
@@ -241,11 +278,25 @@ footer{
 .footer1 .container .row .informasi a{
     text-decoration: none;
     color: #404040;
+    margin-bottom: 10px;
+}
+
+.footer1 .container .row .informasi a:hover{
+    color: #3870CF;
+    letter-spacing: 1px;
 }
 
 .footer1 .container .row .tentangf a{
+    display: flex;
+    flex-direction: column;
     text-decoration: none;
     color: #404040;
+    margin-bottom: 10px;
+}
+
+.footer1 .container .row .tentangf a:hover{
+    color: #3870CF;
+    letter-spacing: 1px;
 }
 
 .footer1 .container .row .ikuti{
@@ -256,11 +307,16 @@ footer{
 .footer1 .container .row .ikuti a{
     text-decoration: none;
     color: #1C2661;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .footer1 .container .row .ikuti a span{
     color: #404040;
+}
+
+.footer1 .container .row .ikuti a span:hover{
+    color: #3870CF;
+    letter-spacing: 1px;
 }
 
 .footer1 .container .copy p{
@@ -337,7 +393,7 @@ footer{
     }
 
     .galeri{
-        height: 800px;
+        height: 900px;
         background: linear-gradient(99.2deg, #3A75D1 1.94%, #54BBEC 100%, #54BBEC 100%);
         background-repeat: no-repeat;
     }
