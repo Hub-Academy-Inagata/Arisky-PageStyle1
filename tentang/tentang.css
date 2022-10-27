@@ -135,6 +135,7 @@ body{
     font-weight: 700;
     font-size: 48px;
     line-height: 72px;
+    color: #1C2661;
 }
 
 .keunggulan .container{
@@ -295,4 +296,173 @@ footer{
     justify-content: center;
     align-items: center;
     color: #404040;
+}
+
+
+/* media queries */
+@media only screen and (max-width: 767px){
+    .banner .container img{
+        width: 80%;
+    }
+
+    .profil .container .profil-caption h2{
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .profil .container .profil-caption p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .video .container h2{
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .video .container p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .keunggulan h2{
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .keunggulan .container{
+        flex-direction: column;
+    }
+
+    .keunggulan .container .content h3{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .keunggulan .container .content p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .guru{
+        height: 1300px;
+        background: linear-gradient(99.2deg, #3A75D1 1.94%, #54BBEC 100%, #54BBEC 100%);
+        background-repeat: no-repeat;
+    }
+
+    .guru .container h2{
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .guru .container .kenal{
+        flex-direction: column;
+    }
+
+    .guru .container .kenal h2{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .guru .container .kenal a{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .guru .container .row .col .cardg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .guru .container .row .col .cardg img{
+        width: 50%;
+    }
+
+    .guru .container .row .col .cardg .card-body{
+        margin-left: 10px;
+    }
+
+    .guru .container .row .col .cardg .card-body h5{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .guru .container .row .col .cardg .card-body p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .banner .container img{
+        width: 80%;
+    }
+
+    .profil .container .profil-caption h2{
+        font-size: 40px;
+        line-height: 42px;
+    }
+
+    .profil .container .profil-caption p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .video .container h2{
+        font-size: 40px;
+        line-height: 42px;
+    }
+
+    .video .container p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .keunggulan h2{
+        font-size: 40px;
+        line-height: 42px;
+    }
+
+    .keunggulan .container .content h3{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .keunggulan .container .content p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .guru{
+        height: 500px;
+        background: linear-gradient(99.2deg, #3A75D1 1.94%, #54BBEC 100%, #54BBEC 100%);
+        background-repeat: no-repeat;
+    }
+
+    .guru .container h2{
+        font-size: 40px;
+        line-height: 42px;
+    }
+
+    .guru .container .kenal h2{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .guru .container .kenal a{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .guru .container .row .col .cardg .card-body h5{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .guru .container .row .col .cardg .card-body p{
+        font-size: 16px;
+        line-height: 20px;
+    }
 }
