@@ -112,8 +112,15 @@ body{
     padding: 0 10px;
 }
 
+.keunggulan .gb-bwh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
 .tentang{
-    margin: 150px 0;
+    padding: 150px 0;
 }
 
 .tentang .container{
@@ -136,6 +143,13 @@ body{
     color: #1C2661;
 }
 
+.tentang .gb-t{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 30px;
+}
+
 .tentang .container .tentang-caption p{
     font-weight: 400;
     font-size: 16px;
@@ -152,7 +166,20 @@ body{
 }
 
 .galeri .container{
-    padding-top: 50px;
+    padding: 20px 0;
+}
+
+.galeri .container .gb-g1{
+    margin-top: -50px;
+}
+
+/* revisi */
+.galeri .container .gb-g2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-content: flex-end;
+    margin-top: 40px;
 }
 
 .galeri .container h2{
@@ -199,6 +226,26 @@ body{
 
 .artikel .container .row{
     margin-top: 20px;
+}
+
+.galeri .container .row .cardg{
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.galeri .container .row .cardg img{
+    width: 100%;
+}
+
+.galeri .container .row .cardg img:hover{
+    transform: scale(1.1);
+} 
+
+.artikel{
+    padding: 100px 0;
 }
 
 .artikel .container .artikel-caption{
@@ -326,6 +373,29 @@ footer{
     color: #404040;
 }
 
+.footer1 .container .gb-f2 .row{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    margin-top: -70px;
+}
+
+.footer1 .container .gb-f1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: flex-start;
+}
+
+.footer1 .container .gb-f1 .row .du{
+    padding: 30px 0;
+}
+
+.footer1 .container .gb-f2 .row .satu{
+    padding-bottom: 10px;
+}
+
 
 /* media queries */
 @media only screen and (max-width: 767px){
@@ -377,6 +447,10 @@ footer{
         font-size: 16px;
         line-height: 20px;
     }
+    
+    .tentang{
+        padding: 200px 10px;
+    }
 
     .tentang .container{
         flex-direction: column;
@@ -393,7 +467,7 @@ footer{
     }
 
     .galeri{
-        height: 900px;
+        height: 1300px;
         background: linear-gradient(99.2deg, #3A75D1 1.94%, #54BBEC 100%, #54BBEC 100%);
         background-repeat: no-repeat;
     }
@@ -401,6 +475,7 @@ footer{
     .galeri .container h2{
         font-size: 28px;
         line-height: 30px;
+        margin: 0 10px;
     }
 
     .galeri .container .dokum{
@@ -415,10 +490,19 @@ footer{
 
     .galeri .container .dokum a{
         font-size: 12px;
+        margin: 0 10px;
     }
 
     .galeri .container .row .col .cardg img{
         width: 30%;
+    }
+    
+    .galeri .container .row .cardg img{
+       width: 50%;
+    }
+
+    .artikel{
+        padding: 50px 10px;
     }
 
     .artikel .container .artikel-caption h2{
