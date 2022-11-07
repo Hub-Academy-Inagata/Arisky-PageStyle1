@@ -158,6 +158,11 @@ footer{
 
 
 @media only screen and (max-width: 767px){
+    .banner{
+        height: 500px;
+        background-image: url(../images/Rectangle1.png);
+    }
+    
     .banner .container img{
         width: 80%;
     }
@@ -165,6 +170,10 @@ footer{
     .banner .container h2{
         font-size: 36px;
         line-height: 40px;
+    }
+    
+    .galeri{
+        padding: 350px 0 200px 0;
     }
 
     .galeri .container h2{
