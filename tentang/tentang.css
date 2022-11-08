@@ -196,6 +196,22 @@ body{
     padding-top: 50px;
 }
 
+.guru .container .gb-g1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    align-content: flex-end;
+    margin-top: -80px;
+}
+
+.guru .container .gb-g2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin-top: 40px;
+}
+
 .guru .container h2{
     font-weight: 700;
     font-size: 48px;
