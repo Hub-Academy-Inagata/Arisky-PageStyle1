@@ -65,6 +65,12 @@ body{
     margin-top: 60px;
 }
 
+#gal-bg{
+    background-image: url(../images/segi4-kuning-footer.png), url(../images/Polygon3.png), url(../images/segi3-biru-footer.png), url(../images/setling-g.png), url(../images/Rectangle6.png);
+    background-repeat: no-repeat;
+    background-position: left top, right top, left center, right center, bottom left;
+}
+
 .galeri .container h2{
     font-size: 48px;
     font-weight: 700;
@@ -155,6 +161,30 @@ footer{
     align-items: center;
     color: #404040;
 }
+.footer1 .container .gb-f2 .row{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    margin-top: -70px;
+}
+
+.footer1 .container .gb-f1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: flex-start;
+}
+
+.footer1 .container .gb-f1 .row .du{
+    padding: 30px 0;
+}
+
+.footer1 .container .gb-f2 .row .satu{
+    padding-bottom: 10px;
+}
+
+
 
 
 @media only screen and (max-width: 767px){
@@ -174,6 +204,10 @@ footer{
     
     .galeri{
         padding: 350px 0 200px 0;
+    }
+
+    #gal-bg{
+        background-size: 10%;
     }
 
     .galeri .container h2{
