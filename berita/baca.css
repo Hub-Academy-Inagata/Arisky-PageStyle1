@@ -63,6 +63,12 @@ body{
     margin-bottom: 100px;
 }
 
+#baca-bg{
+    background-image: url(../images/Polygon1-baca.png), url(../images/Polygon2-baca.png), url(../images/Polygon4-baca.png), url(../images/Polygon3-baca.png);
+    background-repeat: no-repeat;
+    background-position: left top, right top, center, left bottom;
+}
+
 .btn-caption{
     background: linear-gradient(99.2deg, #3A75D1 1.94%, #54BBEC 100%, #54BBEC 100%);
     border-radius: 24px;
@@ -160,6 +166,31 @@ footer{
     align-items: center;
     color: #404040;
 }
+
+.footer1 .container .gb-f2 .row{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    margin-top: -70px;
+}
+
+.footer1 .container .gb-f1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: flex-start;
+}
+
+.footer1 .container .gb-f1 .row .du{
+    padding: 30px 0;
+}
+
+.footer1 .container .gb-f2 .row .satu{
+    padding-bottom: 10px;
+}
+
+
 
 
 @media only screen and (max-width: 767px){
