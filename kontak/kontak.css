@@ -64,6 +64,13 @@ body{
 
 .kontak .container{
     margin: 100px auto;
+    padding: 30px;
+}
+
+#k-bg{
+    background-image: url(../images/Polygon4-biru.png), url(../images/Rectangle3-kuning.png), url(../images/Polygon3-ungu.png), url(../images/setling-k.png);
+    background-repeat: no-repeat;
+    background-position: left top, right top, center, bottom left;
 }
 
 .kontak .container h2{
@@ -223,6 +230,29 @@ footer{
     color: #404040;
 }
 
+.footer1 .container .gb-f2 .row{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    margin-top: -70px;
+}
+
+.footer1 .container .gb-f1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: flex-start;
+}
+
+.footer1 .container .gb-f1 .row .du{
+    padding: 30px 0;
+}
+
+.footer1 .container .gb-f2 .row .satu{
+    padding-bottom: 10px;
+}
+
 
 
 
@@ -243,6 +273,10 @@ footer{
     
     .kontak{
         padding: 300px 0 100px 0;
+    }
+
+    #k-bg{
+        background-size: 10%;
     }
 
     .kontak .container h2{
