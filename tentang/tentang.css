@@ -102,6 +102,12 @@ body{
     color: #3A3B41;
 }
 
+#vid-bg{
+    background-image: url(../images/ling-home.png), url(../images/segi4-kuning-footer.png);
+    background-repeat: no-repeat;
+    background-position: left top, right top;
+}
+
 .modal-dialog {
     max-width: 800px;
     margin: 30px auto;
@@ -131,7 +137,13 @@ body{
 }
 
 .keunggulan{
-    margin: 100px 10px;
+    margin: 200px 10px;
+}
+
+#ke-bg{
+    background-image: url(../images/setling.png), url(../images/Polygon3.png), url(../images/Rectangle5.png);
+    background-repeat: no-repeat;
+    background-position: left top, right top, bottom center;
 }
 
 .keunggulan h2{
@@ -303,6 +315,31 @@ footer{
     color: #404040;
 }
 
+.footer1 .container .gb-f2 .row{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    margin-top: -70px;
+}
+
+.footer1 .container .gb-f1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: flex-start;
+}
+
+.footer1 .container .gb-f1 .row .du{
+    padding: 30px 0;
+}
+
+.footer1 .container .gb-f2 .row .satu{
+    padding-bottom: 10px;
+}
+
+
+
 
 /* media queries */
 @media only screen and (max-width: 767px){
@@ -333,6 +370,10 @@ footer{
         padding: 100px 10px;
     }
 
+    #vid-bg{
+        background-size: 10%;
+    }
+
     .video .container h2{
         font-size: 30px;
         line-height: 30px;
@@ -345,6 +386,10 @@ footer{
     
     .keunggulan{
         padding: 200px 10px;
+    }
+
+    #ke-bg{
+        background-size: 10%;
     }
 
     .keunggulan h2{
@@ -414,6 +459,11 @@ footer{
     .guru .container .row .col .cardg .card-body p{
         font-size: 14px;
         line-height: 18px;
+    }
+
+    .guru .container .gb-g2 img{
+        width: 30%;
+        margin-top: 20px;
     }
 }
 
